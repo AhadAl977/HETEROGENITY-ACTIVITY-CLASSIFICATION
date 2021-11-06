@@ -2,7 +2,7 @@
 
 # About the Repositry
 SDAIA T5 Data Science Bootcamp - Classification Project <br>
-
+This project focuses on the determination of the type of activity detected by phone and watch sensors based on many impactful features.
 ### This repositry contains:
 - [Images folder](https://github.com/AhadAl977/HETEROGENITY-ACTIVITY-CLASSIFICATION/tree/main/img)
 - [Jupyter Notebooks](https://github.com/AhadAl977/HETEROGENITY-ACTIVITY-CLASSIFICATION/tree/main/Jupyter%20Notebooks).<br>
