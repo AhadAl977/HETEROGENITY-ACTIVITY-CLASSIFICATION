@@ -23,8 +23,6 @@ The data then was properly cleaned and handlened in the EDA phase to get a bette
 - Building multple models and finding out the well-suited one for this specific dataset.
 
 
-__F1 Scraped Dataset:__
-
 Cleaning:
 - Took out a sample of 500,000 for the sake of the processor.
 - Dropped unneeded columns.
@@ -38,15 +36,17 @@ Cleaning:
 __Model Building:__
 Around 9 models were tried and played with to get the best model that goes hand in hand with the dataset. 
 After performing simple train and validation on the 9 models one was chosen for further investigation.
-The eliminitaed models (gave poor accuracy, f1, recall and precision results):
+The implemented models:
 1. Logistic Regression Classifier.
 2. Decision Tree Classifier.
 3. Random Forest Classifier. 
 4. Extra Trees Classifier.
-5. Bernoulli Classifier.
-6. Guassian Classifier.
-7. Stacking Classifier.
-8. Voting Classifier.
+5. XGB Classifier.
+6. Bernoulli Classifier.
+7. Guassian Classifier.
+8. Stacking Classifier.
+9. Voting Classifier.
+
 
 The best three models were then fitted into the Stacking Classifier, and those models are:
 1. Decision Tree Classifier.
